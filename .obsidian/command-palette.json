@@ -1,0 +1,8 @@
+{
+  "pinned": [
+    "local-backup:run-local-backup",
+    "obsidian-linter:lint-file",
+    "obsidian-excalidraw-plugin:excalidraw-autocreate-on-current",
+    "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-on-current"
+  ]
+}

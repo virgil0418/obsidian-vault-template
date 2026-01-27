@@ -1,0 +1,23 @@
+{
+  "cssTheme": "Obsidian gruvbox",
+  "enabledCssSnippets": [
+    "General Tweaks",
+    "custom-callouts",
+    "colored-bookmarks",
+    "Colored Sidebar Items",
+    "checkbox",
+    "Notebook Backgrounds",
+    "extended-colorschemes",
+    "Daily Note Themes"
+  ],
+  "showViewHeader": true,
+  "showRibbon": false,
+  "theme": "obsidian",
+  "accentColor": "",
+  "interfaceFontFamily": "JetBrains Maple Mono",
+  "textFontFamily": "JetBrains Maple Mono",
+  "monospaceFontFamily": "JetBrains Maple Mono",
+  "translucency": false,
+  "baseFontSizeAction": false,
+  "baseFontSize": 20
+}

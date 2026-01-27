@@ -1,0 +1,29 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "+",
+  "attachmentFolderPath": "x/Attachments",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "mobileToolbarCommands": [
+    "editor:undo",
+    "editor:redo",
+    "editor:insert-wikilink",
+    "editor:toggle-checklist-status",
+    "editor:set-heading",
+    "editor:toggle-code",
+    "editor:indent-list",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:toggle-strikethrough",
+    "editor:toggle-highlight",
+    "editor:toggle-blockquote",
+    "editor:insert-link",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:configure-toolbar"
+  ],
+  "propertiesInDocument": "visible",
+  "livePreview": true,
+  "vimMode": false,
+  "showInlineTitle": true
+}

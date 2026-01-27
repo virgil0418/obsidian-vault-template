@@ -1,0 +1,44 @@
+{
+  "collapse-filter": true,
+  "search": "-path:Calendar  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:Atlas/Sources  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Atlas/Notes  ",
+      "color": {
+        "a": 1,
+        "rgb": 5404128
+      }
+    },
+    {
+      "query": "path:Atlas/Maps  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 2.08086756906515,
+  "lineSizeMultiplier": 1.76358742974749,
+  "collapse-forces": false,
+  "centerStrength": 0.696944510409246,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 196,
+  "scale": 0.19669131784776547,
+  "close": true
+}
