@@ -14,9 +14,9 @@
   "showRibbon": false,
   "theme": "obsidian",
   "accentColor": "",
-  "interfaceFontFamily": "JetBrains Maple Mono",
-  "textFontFamily": "JetBrains Maple Mono",
-  "monospaceFontFamily": "JetBrains Maple Mono",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
   "translucency": false,
   "baseFontSizeAction": false,
   "baseFontSize": 20

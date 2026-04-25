@@ -4,63 +4,52 @@ cssclasses:
 banner: "[[banner.png]]"
 banner_position: "10"
 ---
-～
+# 🏠 Home
 
-> [!yellow] 
-> 先看这里->[[示例笔记库介绍]]
+> [!info]
+> 这是一个空骨架模板。文件夹负责内容类型，链接和属性负责关系。
 
-> 这几个按钮呢是用来创建日记、周记、月记、还有临时笔记的
-> （button插件）
 ```columns
-id: n3buqzGrnTgi7kpMvibj4
+id: home-actions
 ===
 `button-daily-note` `button-weekly` `button-monthly` `button-unique`
-
 ```
-
-> 行动板块（项目板块）：你可以点开下面的Areas，在里面创建自己的长期项目，点开Projects，在里面创建短期项目
-> 日历板块：展示自己的全部日记
-> 笔记板块：带你通往每一条笔记
-> 资源板块（文献笔记）：记录自己看的书、看的视频、课程...
 
 ```columns
-id: LcCZRqkHp1HHGHPIJoIbj
+id: home-sections
 ===
-## 💪[[Efforts.base|行动]]
+## 💪 行动
+[[Areas.base|长期领域 Areas]]
 
-[[Areas.base|Areas]]
-
-[[Projects.base|Projects]]
-
-===
-## 📅[[Calendar.base|日历]]
-
-[[2026]]
-
-[[Journaling]] 
-
-[[TEMPLATE-Daily|Template]]
+[[Projects.base|短期项目 Projects]]
 
 ===
-## 📝[[Notes.base|笔记]] 
+## 📅 日历
+[[Calendar.base|日历 Calendar]]
 
-[[Maps]]
+[[TEMPLATE-Daily|Daily Template]]
 
-[[Library]]
+[[TEMPLATE-Weekly|Weekly Template]]
+
+[[TEMPLATE-Monthly|Monthly Template]]
+
 ===
-## 📖[[Sources|资源]]
+## 📝 笔记
+[[Notes.base|原子笔记 Notes]]
 
-[[Books]]
+[[Maps.base|主题地图 Maps]]
 
-[[Clippings.base|Clippings]]
+[[TEMPLATE-Notes|Note Template]]
 
-[[Courses.base|Courses]]
+[[TEMPLATE-Map|Map Template]]
 
+===
+## 📖 资源
+[[Books Database.base|书籍 Books]]
+
+[[Clippings.base|摘录 Clippings]]
+
+[[Courses.base|课程 Courses]]
 ```
-> [!red] [[University Courses]]
 
-> [!NOTE] [[草稿本 Draft]] | [[草稿本 ex]]
-
-> [!grey] [[+.base]] | [[🏝️Islands.base]]
-
-> [!blue] FILES > [[PDF.base]] | [[IMAGES.base]] 
+> [!blue] 文件索引：[[PDF.base|PDF]] · [[IMAGES.base|Images]] · [[TEMPLATES.base|Templates]] · [[+.base|Inbox]]

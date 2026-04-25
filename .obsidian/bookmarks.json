@@ -3,25 +3,38 @@
     {
       "type": "file",
       "ctime": 1766387863854,
-      "path": "🏠 Home.md"
+      "path": "🏠 Home.md",
+      "title": "🏠 Home"
     },
     {
       "type": "file",
       "ctime": 1766653923810,
-      "path": "Atlas/Bases/Efforts.base",
-      "title": "🚀 Efforts"
+      "path": "Atlas/Bases/Areas.base",
+      "title": "Areas"
     },
     {
       "type": "file",
-      "ctime": 1768483958255,
-      "path": "Atlas/Notes/Task List.md",
-      "title": "☑️ Task List"
+      "ctime": 1766653923811,
+      "path": "Atlas/Bases/Projects.base",
+      "title": "Projects"
     },
     {
       "type": "file",
-      "ctime": 1768233689573,
-      "path": "Atlas/Notes/⚛️Habits Tracker.md",
-      "title": "⚛️ Habits Tracker"
+      "ctime": 1766653923812,
+      "path": "Atlas/Bases/Calendar.base",
+      "title": "Calendar"
+    },
+    {
+      "type": "file",
+      "ctime": 1766653923813,
+      "path": "Atlas/Bases/Notes.base",
+      "title": "Notes"
+    },
+    {
+      "type": "file",
+      "ctime": 1766653923814,
+      "path": "Atlas/Bases/Maps.base",
+      "title": "Maps"
     }
   ]
 }

@@ -30,4 +30,3 @@ type command
 action Unique note creator: Create new unique note
 ```
 ^button-unique
-

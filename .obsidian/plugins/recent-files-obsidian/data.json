@@ -5,200 +5,56 @@
       "path": "🏠 Home.md"
     },
     {
-      "basename": "示例笔记库介绍",
-      "path": "示例笔记库介绍.md"
+      "basename": "Projects",
+      "path": "Atlas/Bases/Projects.base"
     },
     {
-      "basename": "AWS Udemy Course",
-      "path": "Atlas/Sources/Courses/AWS Udemy Course.md"
+      "basename": "Books Database",
+      "path": "Atlas/Bases/Books Database.base"
     },
     {
-      "basename": "李冉21天冥想课",
-      "path": "Atlas/Sources/Courses/李冉21天冥想课.md"
+      "basename": "Clippings",
+      "path": "Atlas/Bases/Clippings.base"
     },
     {
-      "basename": "李冉14天冥想课",
-      "path": "Atlas/Sources/Courses/李冉14天冥想课.md"
+      "basename": "banner",
+      "path": "x/Attachments/banner.png"
     },
     {
-      "basename": "摄影艺术创作-郭艳民",
-      "path": "Atlas/Sources/Courses/摄影艺术创作-郭艳民.md"
+      "basename": "TEMPLATE-Daily",
+      "path": "x/Templates/TEMPLATE-Daily.md"
     },
     {
-      "basename": "厌女-纵横四海",
-      "path": "Atlas/Sources/Podcasts/厌女-纵横四海.md"
+      "basename": "IMAGES",
+      "path": "Atlas/Bases/IMAGES.base"
     },
     {
-      "basename": "身体康复训练",
-      "path": "Atlas/Notes/身体康复训练.md"
+      "basename": "PDF",
+      "path": "Atlas/Bases/PDF.base"
     },
     {
-      "basename": "运动促进学习",
-      "path": "Atlas/Notes/运动促进学习.md"
+      "basename": "TEMPLATE-Notes",
+      "path": "x/Templates/TEMPLATE-Notes.md"
     },
     {
-      "basename": "选择适合自己的习惯",
-      "path": "Atlas/Notes/选择适合自己的习惯.md"
+      "basename": "📱 Home Mobile",
+      "path": "📱 Home Mobile.md"
     },
     {
-      "basename": "送礼物不要让对方有压力",
-      "path": "Atlas/Notes/送礼物不要让对方有压力.md"
+      "basename": "Notes",
+      "path": "Atlas/Bases/Notes.base"
     },
     {
-      "basename": "金铲铲之战-S16赛季",
-      "path": "Atlas/Notes/金铲铲之战-S16赛季.md"
+      "basename": "Calendar",
+      "path": "Atlas/Bases/Calendar.base"
     },
     {
-      "basename": "间接突出主体",
-      "path": "Atlas/Notes/间接突出主体.md"
+      "basename": "buttons",
+      "path": "x/buttons.md"
     },
     {
-      "basename": "阿德勒心理学",
-      "path": "Atlas/Notes/阿德勒心理学.md"
-    },
-    {
-      "basename": "陪体",
-      "path": "Atlas/Notes/陪体.md"
-    },
-    {
-      "basename": "黄金分割构图",
-      "path": "Atlas/Notes/黄金分割构图.md"
-    },
-    {
-      "basename": "费曼学习法",
-      "path": "Atlas/Notes/费曼学习法.md"
-    },
-    {
-      "basename": "认知负债 Cognitive Debt",
-      "path": "Atlas/Notes/认知负债 Cognitive Debt.md"
-    },
-    {
-      "basename": "蛮王阵容",
-      "path": "Atlas/Notes/蛮王阵容.md"
-    },
-    {
-      "basename": "视觉化进度",
-      "path": "Atlas/Notes/视觉化进度.md"
-    },
-    {
-      "basename": "蛇与锯子",
-      "path": "Atlas/Notes/蛇与锯子.md"
-    },
-    {
-      "basename": "草稿本 ex",
-      "path": "Atlas/Notes/草稿本 ex.md"
-    },
-    {
-      "basename": "草稿本 Draft",
-      "path": "Atlas/Notes/草稿本 Draft.md"
-    },
-    {
-      "basename": "自由和平等",
-      "path": "Atlas/Notes/自由和平等.md"
-    },
-    {
-      "basename": "能与自己产生关联的知识，是记得最深的",
-      "path": "Atlas/Notes/能与自己产生关联的知识，是记得最深的.md"
-    },
-    {
-      "basename": "腹肌",
-      "path": "Atlas/Notes/腹肌.md"
-    },
-    {
-      "basename": "终端",
-      "path": "Atlas/Notes/终端.md"
-    },
-    {
-      "basename": "空白",
-      "path": "Atlas/Notes/空白.md"
-    },
-    {
-      "basename": "确保每条笔记都能被发现",
-      "path": "Atlas/Notes/确保每条笔记都能被发现.md"
-    },
-    {
-      "basename": "睡眠前例程序和后例程序",
-      "path": "Atlas/Notes/睡眠前例程序和后例程序.md"
-    },
-    {
-      "basename": "睡眠周期",
-      "path": "Atlas/Notes/睡眠周期.md"
-    },
-    {
-      "basename": "真空腹训练",
-      "path": "Atlas/Notes/真空腹训练.md"
-    },
-    {
-      "basename": "盖尔定律",
-      "path": "Atlas/Notes/盖尔定律.md"
-    },
-    {
-      "basename": "痛苦之身",
-      "path": "Atlas/Notes/痛苦之身.md"
-    },
-    {
-      "basename": "用投资来锁定未来行为",
-      "path": "Atlas/Notes/用投资来锁定未来行为.md"
-    },
-    {
-      "basename": "用AI提供大纲or知识地图MOC来快速学习、查漏补缺",
-      "path": "Atlas/Notes/用AI提供大纲or知识地图MOC来快速学习、查漏补缺.md"
-    },
-    {
-      "basename": "用AI来总结书籍or教材内容",
-      "path": "Atlas/Notes/用AI来总结书籍or教材内容.md"
-    },
-    {
-      "basename": "游戏开发",
-      "path": "Atlas/Notes/游戏开发.md"
-    },
-    {
-      "basename": "爱情不光是一种感情，也是一种判断和决定。",
-      "path": "Atlas/Notes/爱情不光是一种感情，也是一种判断和决定。.md"
-    },
-    {
-      "basename": "燕式平衡",
-      "path": "Atlas/Notes/燕式平衡.md"
-    },
-    {
-      "basename": "激励仪式",
-      "path": "Atlas/Notes/激励仪式.md"
-    },
-    {
-      "basename": "潜能蓄积期",
-      "path": "Atlas/Notes/潜能蓄积期.md"
-    },
-    {
-      "basename": "支点",
-      "path": "Atlas/Notes/支点.md"
-    },
-    {
-      "basename": "摄影画面的构成元素",
-      "path": "Atlas/Notes/摄影画面的构成元素.md"
-    },
-    {
-      "basename": "接受当下，痛苦会变少",
-      "path": "Atlas/Notes/接受当下，痛苦会变少.md"
-    },
-    {
-      "basename": "持续优化习惯",
-      "path": "Atlas/Notes/持续优化习惯.md"
-    },
-    {
-      "basename": "拍摄角度",
-      "path": "Atlas/Notes/拍摄角度.md"
-    },
-    {
-      "basename": "把笔记库当成一个交流的对象",
-      "path": "Atlas/Notes/把笔记库当成一个交流的对象.md"
-    },
-    {
-      "basename": "把不幸当作武器",
-      "path": "Atlas/Notes/把不幸当作武器.md"
-    },
-    {
-      "basename": "我还能看见多少次满月升起",
-      "path": "Atlas/Notes/我还能看见多少次满月升起.md"
+      "basename": "Courses",
+      "path": "Atlas/Bases/Courses.base"
     }
   ],
   "omittedPaths": [],
