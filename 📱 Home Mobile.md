@@ -3,6 +3,10 @@
 > [!info]
 > 手机端首页。这里保留和桌面首页相同的入口，但排版更窄。
 
+## ⚡ 任务
+- [[⚡Tasks|全局任务看板]]
+- [[Efforts.base|行动总览]]
+
 ```columns
 id: mobile-actions
 ===
@@ -10,6 +14,7 @@ id: mobile-actions
 ```
 
 ## 💪 行动
+- [[Efforts.base|行动总览 Efforts]]
 - [[Areas.base|长期领域 Areas]]
 - [[Projects.base|短期项目 Projects]]
 

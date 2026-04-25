@@ -1,0 +1,22 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.ext == "md"
+        - '!file.inFolder("x")'
+        - file.name != this.file.name
+        - or:
+            - file.ctime.format("YYYY-MM-DD") == date(this.file.basename).format("YYYY-MM-DD")
+            - file.mtime.format("YYYY-MM-DD") == date(this.file.basename).format("YYYY-MM-DD")
+    order:
+      - file.name
+      - file.ctime
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      file.mtime: 360

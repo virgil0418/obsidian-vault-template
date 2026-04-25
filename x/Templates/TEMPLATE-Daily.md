@@ -16,39 +16,53 @@ cssclasses:
 # DAILY NOTE
 ##### ❮ [[<% d.clone().subtract(1, 'days').format("YYYY-MM-DD") %>]] | <% tp.file.title %> | [[<% d.clone().add(1, 'days').format("YYYY-MM-DD") %>]] ❯
 ---
+### ☑️Tasks
+<!-- DAILY_TASKS_START -->
+<%*
+const currentDate = moment(tp.file.title, "YYYY-MM-DD");
+const startMarker = "<!-- DAILY_TASKS_START -->";
+const endMarker = "<!-- DAILY_TASKS_END -->";
+let pending = [];
+
+const previousDaily = app.vault.getMarkdownFiles()
+  .filter((file) => /^Calendar\/Daily\/\d{4}-\d{2}-\d{2}\.md$/.test(file.path))
+  .map((file) => ({ file, date: moment(file.basename, "YYYY-MM-DD") }))
+  .filter(({ date }) => date.isValid() && date.isBefore(currentDate, "day"))
+  .sort((a, b) => b.date.valueOf() - a.date.valueOf())[0];
+
+if (previousDaily) {
+  const content = await app.vault.cachedRead(previousDaily.file);
+  const start = content.indexOf(startMarker);
+  const end = content.indexOf(endMarker);
+  if (start !== -1 && end !== -1 && end > start) {
+    const section = content.slice(start + startMarker.length, end);
+    pending = section
+      .split("\n")
+      .map((line) => line.trimEnd())
+      .filter((line) => /^\s*-\s\[\s\]\s+\S/.test(line));
+  }
+}
+
+if (pending.length > 0) {
+  tR += pending.join("\n");
+} else {
+  tR += "- [ ] ";
+}
+%>
+<!-- DAILY_TASKS_END -->
+
+---
 ### 📕Diary
 #### Log
-- 🛏️
-- 
+
 #### Success
 
 
 ---
 ### ⚛️Habits
 #### Habits
-- 🧘[meditation::]
-- 📖[reading::]
 
-#### 🥦Health
-- [ ] 鱼油
-- [ ] 维生素D
-- [ ] 肌酸
-
-#### 💪Body
-- [workout::]
-	- [ ] 蛋白粉
-
-#### End-of-Day Checklist
-- [ ] 检查邮箱
-- [ ] 备份笔记库
 ---
 
-<%*
-let birth = "2006-06-16";
-let death = moment(birth).add(80, 'years');
-let daysLeft = death.diff(moment(tp.file.title, "YYYY-MM-DD"), 'days');
-%>
-> [!error] 死亡倒计时：**<% daysLeft %> 天**
-
-![[On This Day.base]] 
-
+### 🧾Today Activity
+![[Today Activity.base]]

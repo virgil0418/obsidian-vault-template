@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-04-26",
+      "path": "Calendar/Daily/2026-04-26.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
+    },
+    {
+      "basename": "2026-W17",
+      "path": "Calendar/Weekly/2026-W17.md"
+    },
+    {
+      "basename": "⚡Tasks",
+      "path": "Atlas/Notes/⚡Tasks.md"
+    },
+    {
+      "basename": "banner",
+      "path": "x/Attachments/banner.png"
+    },
+    {
+      "basename": "IMAGES",
+      "path": "Atlas/Bases/IMAGES.base"
+    },
+    {
+      "basename": "README",
+      "path": "+/README.md"
     },
     {
       "basename": "Projects",
@@ -17,16 +41,8 @@
       "path": "Atlas/Bases/Clippings.base"
     },
     {
-      "basename": "banner",
-      "path": "x/Attachments/banner.png"
-    },
-    {
       "basename": "TEMPLATE-Daily",
       "path": "x/Templates/TEMPLATE-Daily.md"
-    },
-    {
-      "basename": "IMAGES",
-      "path": "Atlas/Bases/IMAGES.base"
     },
     {
       "basename": "PDF",
