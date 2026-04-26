@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "61df9d429bc86f97",
+        "id": "59e95a6f52c97edf",
         "type": "tabs",
         "children": [
           {
-            "id": "a028cec05a2e2d39",
+            "id": "6407cad137156507",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/Daily/2026-04-26.md",
+                "file": "WORK.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-04-26"
+              "title": "WORK"
             }
           }
         ]
@@ -41,8 +41,26 @@
     "type": "split",
     "children": [
       {
+        "id": "a3d062275ff6849a",
+        "type": "tabs",
+        "dimension": 37.994722955145114,
+        "children": [
+          {
+            "id": "41a29742dc8e0d50",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      },
+      {
         "id": "template-left-tabs",
         "type": "tabs",
+        "dimension": 62.00527704485488,
         "children": [
           {
             "id": "template-files",
@@ -104,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🏠 Home.md",
+                "file": "Calendar/Daily/2026-04-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Home 的反向链接"
+              "title": "2026-04-26 的反向链接列表"
             }
           },
           {
@@ -166,56 +184,54 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🏠 Home.md",
+                "file": "WORK.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "🏠 Home 的大纲"
-            }
-          },
-          {
-            "id": "41a29742dc8e0d50",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "title": "WORK 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
       "zk-prefixer:创建时间戳笔记": false,
       "workspaces:管理工作区布局": false,
       "bases:新建数据库": false,
+      "periodic-notes:Open today": false,
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "local-backup:Run local backup": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "periodic-notes:Open today": false
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "a028cec05a2e2d39",
+  "active": "6407cad137156507",
   "lastOpenFiles": [
+    "LESSON.md",
+    "Atlas/Notes/LLM Wiki 到当前仓库的映射.md",
+    "WORK.md",
     "🏠 Home.md",
+    "Atlas/Notes/⚡Tasks.md",
+    "Atlas/log.md",
+    "Calendar/Daily/2026-04-27.md",
     "Calendar/Daily/2026-04-26.md",
+    "Atlas/Maps/知识库总图.md",
+    "Atlas/Bases/Wiki.base",
+    "AGENTS.md",
     "Calendar/Weekly/2026-W17.md",
     "Atlas/Bases/Today Activity.base",
-    "Atlas/Notes/⚡Tasks.md",
     "x/Attachments/banner.png",
     "Atlas/Bases/IMAGES.base",
     "+/测试inbox的任务.md",
@@ -230,7 +246,6 @@
     "Atlas/Bases/Notes.base",
     "Atlas/Bases/Maps.base",
     "Atlas/Bases/Books Database.base",
-    "Atlas/Bases/Clippings.base",
     "x/Templates/TEMPLATE-Area.md",
     "x/Templates/TEMPLATE-Project.md",
     "x/Templates/TEMPLATE-Map.md",
