@@ -1,12 +1,27 @@
 views:
   - type: table
-    name: Table
+    name: 知识卡 Notes
     filters:
       and:
         - file.inFolder("Atlas/Notes")
     order:
       - file.name
+      - summary
+      - status
+      - note_type
+      - up
+      - related
+      - sources
+      - updated
       - date
     sort:
+      - property: updated
+        direction: DESC
       - property: date
         direction: DESC
+    columnSize:
+      file.name: 260
+      note.summary: 360
+      note.status: 120
+      note.note_type: 140
+      note.updated: 140

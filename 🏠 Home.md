@@ -69,6 +69,8 @@ id: home-sections
 
 ===
 ## 📝 笔记
+[[知识库总图|知识库总图]]
+
 [[Notes.base|原子笔记 Notes]]
 
 [[Maps.base|主题地图 Maps]]

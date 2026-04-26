@@ -1,9 +1,26 @@
 views:
   - type: table
-    name: Table
+    name: 主题地图 Maps
     filters:
       and:
         - file.inFolder("Atlas/Maps")
+    order:
+      - file.name
+      - summary
+      - status
+      - map_type
+      - up
+      - related
+      - updated
+      - date
     sort:
+      - property: updated
+        direction: DESC
       - property: file.name
         direction: ASC
+    columnSize:
+      file.name: 260
+      note.summary: 360
+      note.status: 120
+      note.map_type: 140
+      note.updated: 140

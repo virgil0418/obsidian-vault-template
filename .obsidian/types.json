@@ -30,6 +30,14 @@
     "TQ_show_task_count": "checkbox",
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox",
-    "url": "multitext"
+    "url": "multitext",
+    "page_type": "text",
+    "note_type": "text",
+    "map_type": "text",
+    "source_type": "text",
+    "status": "text",
+    "summary": "text",
+    "sources": "multitext",
+    "updated": "date"
   }
 }

@@ -1,0 +1,34 @@
+views:
+  - type: table
+    name: 知识库总览 Wiki
+    filters:
+      and:
+        - file.inFolder("Atlas")
+        - '!file.inFolder("Atlas/Bases")'
+        - or:
+            - page_type == "source"
+            - page_type == "note"
+            - page_type == "map"
+    groupBy:
+      property: page_type
+      direction: ASC
+    order:
+      - file.name
+      - page_type
+      - summary
+      - status
+      - up
+      - related
+      - updated
+      - date
+    sort:
+      - property: updated
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 280
+      note.page_type: 120
+      note.summary: 400
+      note.status: 120
+      note.updated: 140
