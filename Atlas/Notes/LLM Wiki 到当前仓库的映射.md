@@ -9,7 +9,7 @@ related:
   - "[[⚡Tasks]]"
 sources: []
 date: 2026-04-26
-updated: 2026-04-26
+updated: 2026-04-27
 ---
 # LLM Wiki 到当前仓库的映射
 
@@ -27,7 +27,7 @@ LLM Wiki 的重点不是固定目录名，而是让知识库具备几种能力�
 | --- | --- |
 | raw sources | `Atlas/Sources` |
 | wiki | `Atlas/Notes` + `Atlas/Maps` |
-| schema | `AGENTS.md` + `x/Templates` + frontmatter 约定 |
+| schema / control plane | `AGENTS.md` + `x` + frontmatter 约定 |
 | index | `Atlas/Maps` + `Atlas/Bases` + frontmatter |
 | log | `Atlas/log.md` |
 | ingest / query / lint | `AGENTS.md` 中定义的工作流 |
@@ -59,13 +59,16 @@ Obsidian 已经有更自然的索引系统：
 
 因此，本仓库需要的是“索引能力”，不一定需要一个叫 `index.md` 的文件。
 
-## Schema 的实现
+## Schema / Control Plane 的实现
 
-Schema 不只是一份说明文档，而是一组让人和 agent 都能稳定协作的约束：
+Schema 不只是一份说明文档，而是一组让人和 agent 都能稳定协作的约束；control plane 则是这些约束在 Obsidian 中实际运行的控制层：
 
-- `AGENTS.md` 说明目录语义、读写边界和工作流。
+- `AGENTS.md` 是最高操作 schema，说明目录语义、读写边界和工作流。
+- `x` 是 schema / control plane 层，承载模板、隐藏模板、按钮、附件、CSS snippets 等控制资产。
 - `x/Templates/TEMPLATE-Notes.md` 规定知识卡的默认形状。
 - `x/Templates/TEMPLATE-Map.md` 规定地图页的默认形状。
 - frontmatter 字段让 Base 和 agent 可以识别页面类型。
+
+`x` 不承担稳定知识沉淀职责；它控制知识库如何被创建、呈现和维护。稳定知识仍进入 `Atlas/Notes`，导航结构仍进入 `Atlas/Maps`。
 
 `Atlas/Sources` 不设置模板，因为它保留原始材料，不应该被迫改造成统一格式的 wiki 页面。

@@ -25,7 +25,7 @@
 - `Atlas/Bases`：Obsidian Base 视图区。用于基于 frontmatter 和文件属性生成动态索引、过滤视图和健康检查视图。
 - `Calendar`：时间上下文。用于日记、周记、月记、季度/年度笔记、周期复盘和时间范围内的追踪。
 - `Efforts`：行动和交付层。用于项目、领域、目标、项目任务和执行上下文。
-- `x`：知识库基础设施。用于模板、附件、隐藏模板、按钮、CSS snippets 和其他支持文件。
+- `x`：schema / control plane 层。用于模板、隐藏模板、按钮、附件、CSS snippets 和其他让规则落地的控制资产；这里支撑知识库运行，但不是 canonical 知识层。
 
 ## 来源保护规则
 
@@ -49,8 +49,8 @@
 - `project`：位于 `Efforts` 的项目或行动材料。
 - `calendar`：位于 `Calendar` 的时间范围笔记。
 - `inbox`：位于 `+` 的待分流材料。
-- `template`：位于 `x/Templates` 或 `x/Hidden Templates` 的模板或支持页面。
-- `system`：操作性文件，例如本文件、日志、Base 定义和知识库支持文件。
+- `template`：位于 `x/Templates` 或 `x/Hidden Templates` 的模板页面。
+- `system`：操作性文件，例如本文件、日志、Base 定义、`x` 中的控制资产和知识库支持文件。
 
 如果已有页面缺少 `page_type`，不要为了合规批量改全库。只有在真实工作流中触碰页面时，才补充或更新 frontmatter。
 
@@ -177,6 +177,15 @@ Agent 导航协议：
 - `Calendar` 或 `Efforts` 中是否隐藏了应晋升到 `Atlas/Notes` 的稳定知识。
 
 Lint 结果写到最适合当前任务的位置。如果 lint 推动了实质性修改，应追加记录到 `Atlas/log.md`。
+
+## 工作项与经验记录
+
+`WORK.md` 和 `LESSON.md` 是根目录下的 agent 执行控制文档。
+
+- `WORK.md`：记录 agent 拆解的工作项、进行中状态、阻塞点、验证结果和关键决策。它不替代 `Efforts` 或 `Calendar`，也不是 canonical 知识层。
+- `LESSON.md`：记录从 agent 维护、整理和 review 中沉淀出的可复用经验。它应写成未来 agent 可直接应用的判断规则。
+- 如果工作实质改变了仓库结构、schema、导航或重要内容，仍需按日志规则追加 `Atlas/log.md`。
+- 如果 lesson 已经变成稳定知识卡或方法论，应进一步晋升到 `Atlas/Notes`，并在 `LESSON.md` 保留简短规则或链接。
 
 ## 日志规则
 
